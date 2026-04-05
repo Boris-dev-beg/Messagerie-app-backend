@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "proxy": "https://chat-app-nine-xi-96.vercel.app/",
+  "description": "How to build a chat live application",
+  "license": "ISC",
+  "author": "Boris MANGWA",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.4",
+    "nodemon": "^3.1.11",
+    "socket.io": "^4.8.3"
+  }
+}
